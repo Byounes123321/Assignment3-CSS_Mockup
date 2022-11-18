@@ -1,0 +1,174 @@
+html {
+    background-color: #8FBB99;
+    font-family: 'Lobster Two';
+    font-family: 'Open Sans',
+        sans-serif;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background: #2E294E;
+    color: #8FBB99;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 0;
+}
+
+.header h1 {
+    font-family: 'Lobster Two';
+    font-size: 36px;
+    position: absolute;
+    width: 271px;
+    height: 141px;
+    left: 119px;
+    top: 4px;
+    letter-spacing: 25px;
+
+}
+
+.nav {
+    overflow: hidden;
+    margin-left: 24em;
+}
+
+.nav a {
+    font-family: "lobster two";
+    float: right;
+    font-size: 24px;
+    color: #8FBB99;
+    text-align: center;
+    padding: 50px 30px;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    /* justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0; */
+
+}
+
+.spotlight {
+    /* background-color: green; */
+    /* flex: auto; */
+    margin: 25px;
+    padding: 25px;
+    flex-direction: column;
+
+}
+
+.spotlight-background {
+    background-color: #DFBBB1;
+    padding: 5px;
+    margin: 55px;
+    margin-top: -10px;
+    padding-right: none;
+    border-radius: 55px;
+    width: 710px;
+    /* height: 500px; */
+}
+
+.spotlight-title {
+    font-size: 25px;
+    padding-right: none;
+    margin: -5px;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.netflix-image img {
+    width: 678PX;
+    height: 469PX;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+.spotlight-discrpition-title {
+    font-size: 24px;
+    text-align: center;
+    /* overflow: hidden;*/
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.project-num {
+    margin-top: -20px;
+}
+
+.project-name {
+    padding: none;
+    margin-top: -25px;
+    /* line-height: 0px; */
+
+}
+
+.spotlight-text {
+    margin: 25px;
+    margin-left: 55px;
+    margin-right: 125px;
+    /* text-align: center; */
+
+}
+
+.more-projects {
+    background-color: #DFBBB1;
+    /* flex: auto; */
+    margin: 45px;
+    margin-bottom: 45px;
+    margin-right: 45px;
+    padding: 10px;
+    padding-bottom: 25px;
+    border-radius: 55px;
+
+}
+
+.moreprojects-title {
+    font-size: 25px;
+    padding-right: none;
+    margin: -5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.aside-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 44px;
+}
+
+.aside-images img {
+    border-radius: 25px;
+    /* padding: 20px; */
+    margin: 20px;
+}
+
+.aside-project-titles {
+    margin-top: -15px;
+    text-align: center;
+    /* margin-top: -20px;
+    margin-bottom: 20px; */
+}
+
+.btm-title {
+    margin-top: -15px;
+}
+
+.form-container {
+    background-color: #DFBBB1;
+    margin: 55px;
+    margin-right: 20em;
+    margin-left: 20em;
+    border-radius: 55px;
+    padding: 25px;
+}
